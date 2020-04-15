@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
   
 get '/friends' do
+  "200"
   @friends = [
     'Emily Wilding Davison', 
     'Harriet Tubman', 
