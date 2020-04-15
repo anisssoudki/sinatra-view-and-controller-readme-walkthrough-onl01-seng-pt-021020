@@ -17,6 +17,6 @@ get '/friends' do
   
   erb :friends
   
-  return "200"
+  return 200
   end
 end
